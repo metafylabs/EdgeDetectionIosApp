@@ -17,16 +17,16 @@
 		7B34AA24299F68A100D111F8 /* IosTestappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34AA23299F68A100D111F8 /* IosTestappUITests.swift */; };
 		7B34AA26299F68A100D111F8 /* IosTestappUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34AA25299F68A100D111F8 /* IosTestappUITestsLaunchTests.swift */; };
 		7B34AA33299F690300D111F8 /* ScanDocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B34AA32299F690300D111F8 /* ScanDocumentController.swift */; };
-		7BEBD952299F94B20033AACF /* cunning_document_scanner.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEBD94D299F94B20033AACF /* cunning_document_scanner.xcframework */; };
-		7BEBD953299F94B20033AACF /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEBD94E299F94B20033AACF /* permission_handler_apple.xcframework */; };
-		7BEBD954299F94B20033AACF /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEBD94F299F94B20033AACF /* App.xcframework */; };
-		7BEBD955299F94B20033AACF /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEBD950299F94B20033AACF /* FlutterPluginRegistrant.xcframework */; };
-		7BEBD956299F94B20033AACF /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEBD951299F94B20033AACF /* Flutter.xcframework */; };
-		7BEBD95C299F94B90033AACF /* App.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7BEBD957299F94B90033AACF /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7BEBD95D299F94B90033AACF /* permission_handler_apple.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7BEBD958299F94B90033AACF /* permission_handler_apple.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7BEBD95E299F94B90033AACF /* cunning_document_scanner.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7BEBD959299F94B90033AACF /* cunning_document_scanner.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7BEBD95F299F94B90033AACF /* FlutterPluginRegistrant.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7BEBD95A299F94B90033AACF /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7BEBD960299F94B90033AACF /* Flutter.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7BEBD95B299F94B90033AACF /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B53CB6A29A7222300F800F5 /* permission_handler_apple.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53CB6529A7222300F800F5 /* permission_handler_apple.xcframework */; };
+		7B53CB6B29A7222300F800F5 /* cunning_document_scanner.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53CB6629A7222300F800F5 /* cunning_document_scanner.xcframework */; };
+		7B53CB6C29A7222300F800F5 /* FlutterPluginRegistrant.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53CB6729A7222300F800F5 /* FlutterPluginRegistrant.xcframework */; };
+		7B53CB6D29A7222300F800F5 /* Flutter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53CB6829A7222300F800F5 /* Flutter.xcframework */; };
+		7B53CB6E29A7222300F800F5 /* App.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B53CB6929A7222300F800F5 /* App.xcframework */; };
+		7B53CB7429A7223100F800F5 /* Flutter.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7B53CB6F29A7223100F800F5 /* Flutter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B53CB7529A7223100F800F5 /* FlutterPluginRegistrant.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7B53CB7029A7223100F800F5 /* FlutterPluginRegistrant.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B53CB7629A7223100F800F5 /* App.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7B53CB7129A7223100F800F5 /* App.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B53CB7729A7223100F800F5 /* permission_handler_apple.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7B53CB7229A7223100F800F5 /* permission_handler_apple.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7B53CB7829A7223100F800F5 /* cunning_document_scanner.xcframework in Embended FrameWork */ = {isa = PBXBuildFile; fileRef = 7B53CB7329A7223100F800F5 /* cunning_document_scanner.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +53,11 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				7BEBD95C299F94B90033AACF /* App.xcframework in Embended FrameWork */,
-				7BEBD95D299F94B90033AACF /* permission_handler_apple.xcframework in Embended FrameWork */,
-				7BEBD95E299F94B90033AACF /* cunning_document_scanner.xcframework in Embended FrameWork */,
-				7BEBD95F299F94B90033AACF /* FlutterPluginRegistrant.xcframework in Embended FrameWork */,
-				7BEBD960299F94B90033AACF /* Flutter.xcframework in Embended FrameWork */,
+				7B53CB7429A7223100F800F5 /* Flutter.xcframework in Embended FrameWork */,
+				7B53CB7529A7223100F800F5 /* FlutterPluginRegistrant.xcframework in Embended FrameWork */,
+				7B53CB7629A7223100F800F5 /* App.xcframework in Embended FrameWork */,
+				7B53CB7729A7223100F800F5 /* permission_handler_apple.xcframework in Embended FrameWork */,
+				7B53CB7829A7223100F800F5 /* cunning_document_scanner.xcframework in Embended FrameWork */,
 			);
 			name = "Embended FrameWork";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,16 +79,16 @@
 		7B34AA23299F68A100D111F8 /* IosTestappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosTestappUITests.swift; sourceTree = "<group>"; };
 		7B34AA25299F68A100D111F8 /* IosTestappUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IosTestappUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7B34AA32299F690300D111F8 /* ScanDocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDocumentController.swift; sourceTree = "<group>"; };
-		7BEBD94D299F94B20033AACF /* cunning_document_scanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = cunning_document_scanner.xcframework; path = Document_scanner/Debug/cunning_document_scanner.xcframework; sourceTree = SOURCE_ROOT; };
-		7BEBD94E299F94B20033AACF /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = Document_scanner/Debug/permission_handler_apple.xcframework; sourceTree = SOURCE_ROOT; };
-		7BEBD94F299F94B20033AACF /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = Document_scanner/Debug/App.xcframework; sourceTree = SOURCE_ROOT; };
-		7BEBD950299F94B20033AACF /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = Document_scanner/Debug/FlutterPluginRegistrant.xcframework; sourceTree = SOURCE_ROOT; };
-		7BEBD951299F94B20033AACF /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Document_scanner/Debug/Flutter.xcframework; sourceTree = SOURCE_ROOT; };
-		7BEBD957299F94B90033AACF /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = Document_scanner/Debug/App.xcframework; sourceTree = "<group>"; };
-		7BEBD958299F94B90033AACF /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = Document_scanner/Debug/permission_handler_apple.xcframework; sourceTree = "<group>"; };
-		7BEBD959299F94B90033AACF /* cunning_document_scanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = cunning_document_scanner.xcframework; path = Document_scanner/Debug/cunning_document_scanner.xcframework; sourceTree = "<group>"; };
-		7BEBD95A299F94B90033AACF /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = Document_scanner/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
-		7BEBD95B299F94B90033AACF /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Document_scanner/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		7B53CB6529A7222300F800F5 /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = Document_scanner/Debug/permission_handler_apple.xcframework; sourceTree = SOURCE_ROOT; };
+		7B53CB6629A7222300F800F5 /* cunning_document_scanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = cunning_document_scanner.xcframework; path = Document_scanner/Debug/cunning_document_scanner.xcframework; sourceTree = SOURCE_ROOT; };
+		7B53CB6729A7222300F800F5 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = Document_scanner/Debug/FlutterPluginRegistrant.xcframework; sourceTree = SOURCE_ROOT; };
+		7B53CB6829A7222300F800F5 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Document_scanner/Debug/Flutter.xcframework; sourceTree = SOURCE_ROOT; };
+		7B53CB6929A7222300F800F5 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = Document_scanner/Debug/App.xcframework; sourceTree = SOURCE_ROOT; };
+		7B53CB6F29A7223100F800F5 /* Flutter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Flutter.xcframework; path = Document_scanner/Debug/Flutter.xcframework; sourceTree = "<group>"; };
+		7B53CB7029A7223100F800F5 /* FlutterPluginRegistrant.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FlutterPluginRegistrant.xcframework; path = Document_scanner/Debug/FlutterPluginRegistrant.xcframework; sourceTree = "<group>"; };
+		7B53CB7129A7223100F800F5 /* App.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = App.xcframework; path = Document_scanner/Debug/App.xcframework; sourceTree = "<group>"; };
+		7B53CB7229A7223100F800F5 /* permission_handler_apple.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = permission_handler_apple.xcframework; path = Document_scanner/Debug/permission_handler_apple.xcframework; sourceTree = "<group>"; };
+		7B53CB7329A7223100F800F5 /* cunning_document_scanner.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = cunning_document_scanner.xcframework; path = Document_scanner/Debug/cunning_document_scanner.xcframework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +96,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7BEBD956299F94B20033AACF /* Flutter.xcframework in Frameworks */,
-				7BEBD953299F94B20033AACF /* permission_handler_apple.xcframework in Frameworks */,
-				7BEBD952299F94B20033AACF /* cunning_document_scanner.xcframework in Frameworks */,
-				7BEBD955299F94B20033AACF /* FlutterPluginRegistrant.xcframework in Frameworks */,
-				7BEBD954299F94B20033AACF /* App.xcframework in Frameworks */,
+				7B53CB6D29A7222300F800F5 /* Flutter.xcframework in Frameworks */,
+				7B53CB6B29A7222300F800F5 /* cunning_document_scanner.xcframework in Frameworks */,
+				7B53CB6E29A7222300F800F5 /* App.xcframework in Frameworks */,
+				7B53CB6C29A7222300F800F5 /* FlutterPluginRegistrant.xcframework in Frameworks */,
+				7B53CB6A29A7222300F800F5 /* permission_handler_apple.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,11 +124,11 @@
 		7B34A9F6299F689D00D111F8 = {
 			isa = PBXGroup;
 			children = (
-				7BEBD957299F94B90033AACF /* App.xcframework */,
-				7BEBD959299F94B90033AACF /* cunning_document_scanner.xcframework */,
-				7BEBD95B299F94B90033AACF /* Flutter.xcframework */,
-				7BEBD95A299F94B90033AACF /* FlutterPluginRegistrant.xcframework */,
-				7BEBD958299F94B90033AACF /* permission_handler_apple.xcframework */,
+				7B53CB7129A7223100F800F5 /* App.xcframework */,
+				7B53CB7329A7223100F800F5 /* cunning_document_scanner.xcframework */,
+				7B53CB6F29A7223100F800F5 /* Flutter.xcframework */,
+				7B53CB7029A7223100F800F5 /* FlutterPluginRegistrant.xcframework */,
+				7B53CB7229A7223100F800F5 /* permission_handler_apple.xcframework */,
 				7B34AA01299F689D00D111F8 /* IosTestapp */,
 				7B34AA18299F68A100D111F8 /* IosTestappTests */,
 				7B34AA22299F68A100D111F8 /* IosTestappUITests */,
@@ -149,11 +149,11 @@
 		7B34AA01299F689D00D111F8 /* IosTestapp */ = {
 			isa = PBXGroup;
 			children = (
-				7BEBD94F299F94B20033AACF /* App.xcframework */,
-				7BEBD94D299F94B20033AACF /* cunning_document_scanner.xcframework */,
-				7BEBD951299F94B20033AACF /* Flutter.xcframework */,
-				7BEBD950299F94B20033AACF /* FlutterPluginRegistrant.xcframework */,
-				7BEBD94E299F94B20033AACF /* permission_handler_apple.xcframework */,
+				7B53CB6929A7222300F800F5 /* App.xcframework */,
+				7B53CB6629A7222300F800F5 /* cunning_document_scanner.xcframework */,
+				7B53CB6829A7222300F800F5 /* Flutter.xcframework */,
+				7B53CB6729A7222300F800F5 /* FlutterPluginRegistrant.xcframework */,
+				7B53CB6529A7222300F800F5 /* permission_handler_apple.xcframework */,
 				7B34AA02299F689D00D111F8 /* AppDelegate.swift */,
 				7B34AA04299F689D00D111F8 /* SceneDelegate.swift */,
 				7B34AA06299F689D00D111F8 /* ViewController.swift */,
@@ -495,6 +495,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IosTestapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -522,6 +523,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = IosTestapp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -549,6 +551,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -568,6 +571,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MARKETING_VERSION = 1.0;
@@ -586,6 +590,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metafy.IosTestappUITests;
@@ -603,6 +608,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8LCLFP684Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.metafy.IosTestappUITests;

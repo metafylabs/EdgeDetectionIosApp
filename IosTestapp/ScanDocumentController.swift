@@ -16,8 +16,11 @@ class ScanDocumentController: UIViewController, FlutterAppLifeCycleProvider {
     let flutterEngine = FlutterEngine(name: "flutter_nps_engine")
     
     let settings = [
-        "token" : "Scanning",
-    ]
+        "token" : "1234",
+        "backgroundColor":0x20262E,
+        "buttonColor":0xE9E8E8,
+        "progressIndicatorColor":0xE9E8E8,
+    ] as [String : Any]
     override func viewDidLoad() {
         super.viewDidLoad()
         flutterEngine.run()
