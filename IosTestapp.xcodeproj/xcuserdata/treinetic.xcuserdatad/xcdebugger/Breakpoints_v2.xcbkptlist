@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "D170CA56-CBC8-4C3B-9308-BD9EF01622A1"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3DC029C2-7ADD-4A24-A977-6A426AA9463D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosTestapp/ScanDocumentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "settings"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "3DC029C2-7ADD-4A24-A977-6A426AA9463D - a77d3d85cbbf4e08"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosTestapp.ScanDocumentController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; IosTestapp.ScanDocumentController"
+                  moduleName = "IosTestapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/treinetic/Desktop/Work/document_scanner/IosTestapp/IosTestapp/ScanDocumentController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "216">
+               </Location>
+               <Location
+                  uuid = "3DC029C2-7ADD-4A24-A977-6A426AA9463D - 8847b408a0913850"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IosTestapp.ScanDocumentController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;IosTestapp.ScanDocumentController&gt;"
+                  moduleName = "IosTestapp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/treinetic/Desktop/Work/document_scanner/IosTestapp/IosTestapp/ScanDocumentController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "192">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "053C5211-0CD2-4DFB-A690-0148F0B75448"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IosTestapp/ScanDocumentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "handleFlutteModule()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
