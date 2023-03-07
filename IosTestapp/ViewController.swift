@@ -18,20 +18,25 @@ class ViewController: UIViewController {
     }
 
     @IBAction func scan_document_btn(_ sender: Any) {
+        
+        //  Already Authorized
         if AVCaptureDevice.authorizationStatus(for: AVMediaType.video) ==  AVAuthorizationStatus.authorized
         {
+            // Call the navigate function for navigate to the second vietrollerwCon in here scond vietrollerwCon name is "ScanDocumentController"
            self.navigate()
         }
         else
         {
+            //Request the permission
             AVCaptureDevice.requestAccess(for: AVMediaType.video, completionHandler: { (granted :Bool) -> Void in
               if granted == true
               {
+                  // call the navigate function
               self.navigate()
               }
               else
               {
-                  print("User Rejected----->>>>>")
+                 // Reject the camera permission
               }
            });
         }

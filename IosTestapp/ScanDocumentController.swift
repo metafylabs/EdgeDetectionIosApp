@@ -11,10 +11,13 @@ import Foundation
 import FlutterPluginRegistrant
 
 class ScanDocumentController: UIViewController{
+    
     var window: UIWindow?
     var flutterEngine : FlutterEngine?
     var isInit = false;
     
+    // put your token and background colors as a Value.
+    // DON'T CHANGE THE KEYS
     let settings = [
         "token" : "1234",
         "backgroundColor":0x20262E,
@@ -41,15 +44,20 @@ class ScanDocumentController: UIViewController{
     
     override func viewWillAppear(_ animated: Bool) {
      //start communicate between flutter and ios
-     handleFlutteModule()
+        getDocumentUrl()
     }
 
 
-    @objc func handleFlutteModule() {
+    
+    
+    @objc func getDocumentUrl() {
+        // DON'T CHANGE THIS
         let PLATFORM = "com.example.metafy_edge_detection_module"
         let SEND_SETTINGS_CHANNEL = "sendSettings"
         let GET_IMAGE_CHANNEL = "getImageUrl"
         let CALL_FLUTTER_VIEW_CHANNEL="callFlutterView"
+        
+        var url:String="";
  
      if let flutterEngine = flutterEngine{
             let channel = FlutterMethodChannel(name: PLATFORM, binaryMessenger: flutterEngine.binaryMessenger)
@@ -70,8 +78,9 @@ class ScanDocumentController: UIViewController{
              if(call.method==GET_IMAGE_CHANNEL){
                  let args = call.arguments as? Dictionary<String,Any>
 
-                 let url = args?["url"] as! String
-                 print("arguments from dart side ------->>>>>>>>> ",url)
+                 // DON'T CHANGE THE KEY
+                  url = args?["url"] as! String
+                 print("Document Url---->>> ",url)
                 // dismiss the flutterview
                  self.dismiss(animated: true, completion: nil)
                  //dismiss the scandocumentController view
@@ -81,6 +90,7 @@ class ScanDocumentController: UIViewController{
          })
         
         }
-        
+     
      }
+    
 }
