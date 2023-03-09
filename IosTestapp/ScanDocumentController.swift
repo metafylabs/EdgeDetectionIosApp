@@ -12,17 +12,20 @@ import FlutterPluginRegistrant
 
 class ScanDocumentController: UIViewController{
     
-    var window: UIWindow?
+   var window: UIWindow?
     var flutterEngine : FlutterEngine?
     var isInit = false;
     
     // put your token and background colors as a Value.
     // DON'T CHANGE THE KEYS
+
     let settings = [
         "token" : "1234",
         "backgroundColor":0x20262E,
         "buttonColor":0xE9E8E8,
         "progressIndicatorColor":0xE9E8E8,
+        "cropperActiveIconColor" : 0xFFA500,
+        "cropperTitle" : "Image Cropper",
     ] as [String : Any]
     
 
@@ -40,11 +43,9 @@ class ScanDocumentController: UIViewController{
     }
     
   
-    
-    
     override func viewWillAppear(_ animated: Bool) {
      //start communicate between flutter and ios
-        getDocumentUrl()
+       getDocumentUrl()
     }
 
 
@@ -72,6 +73,7 @@ class ScanDocumentController: UIViewController{
              //start flutter view
              if(call.method==CALL_FLUTTER_VIEW_CHANNEL){
                  let flutterViewController = FlutterViewController(engine: flutterEngine, nibName: nil, bundle: nil)
+                 flutterViewController.modalPresentationStyle = .fullScreen
                  self.present(flutterViewController, animated: true, completion: nil)
              }
              // get image url
